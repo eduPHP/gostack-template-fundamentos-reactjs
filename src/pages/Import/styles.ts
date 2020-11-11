@@ -19,7 +19,7 @@ export const Title = styled.h1`
 export const ImportFileContainer = styled.section`
   background: #fff;
   margin-top: 40px;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 64px;
 `;
 
@@ -42,15 +42,15 @@ export const Footer = styled.section`
   }
 
   button {
-    background: #ff872c;
+    background: #12A454;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 15px 80px;
     border: 0;
     transition: background-color 0.2s;
 
     &:hover {
-      background: ${shade(0.2, '#ff872c')};
+      background: ${shade(0.2, '#12A454')};
     }
   }
 `;

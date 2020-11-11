@@ -24,9 +24,9 @@ export const CardContainer = styled.section`
 `;
 
 export const Card = styled.div`
-  background: ${({ total }: CardProps): string => (total ? '#FF872C' : '#fff')};
+  background: ${({ total }: CardProps): string => (total ? '#12A454' : '#fff')};
   padding: 22px 32px;
-  border-radius: 5px;
+  border-radius: 3px;
   color: ${({ total }: CardProps): string => (total ? '#fff' : '#363F5F')};
 
   header {
@@ -76,20 +76,20 @@ export const TableContainer = styled.section`
       }
 
       &.income {
-        color: #12a454;
+        color: #52ce8a;
       }
 
       &.outcome {
-        color: #e83f5b;
+        color: #e67285;
       }
     }
 
     td:first-child {
-      border-radius: 8px 0 0 8px;
+      border-radius: 3px 0 0 3px;
     }
 
     td:last-child {
-      border-radius: 0 8px 8px 0;
+      border-radius: 0 3px 3px 0;
     }
   }
 `;
